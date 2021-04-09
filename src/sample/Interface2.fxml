@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #E5F0FF#E5F0FF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Interface2Controller">
+   <children>
+      <Button fx:id="button1" layoutX="89.0" layoutY="342.0" mnemonicParsing="false" onAction="#senddawdiat" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #BDCCFF#BDCCFF;" text="Daoudiat" />
+      <Button fx:id="button2" layoutX="256.0" layoutY="342.0" mnemonicParsing="false" onAction="#sendkoudia" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #BDCCFF#BDCCFF;" text="Koudia" />
+      <Button fx:id="button3" layoutX="410.0" layoutY="342.0" mnemonicParsing="false" onAction="#sendmasira" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #BDCCFF#BDCCFF;" text="El massira" />
+      <Label layoutX="54.0" layoutY="105.0" prefHeight="42.0" prefWidth="492.0" text="WELCOME TO SAFE HOME ">
+         <font>
+            <Font name="Arial Bold" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="97.0" fitWidth="132.0" layoutX="220.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../Desktop/Screen%20Shot%202021-04-09%20at%2020.55.18.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="78.0" layoutY="200.0" prefHeight="17.0" prefWidth="413.0" text="Safe Home is an application that helps students find">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="221.0" prefHeight="17.0" prefWidth="413.0" text="rent in a safe area with a good price in Marrakech.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="288.0" prefHeight="29.0" prefWidth="249.0" text="Please choose an area ">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
